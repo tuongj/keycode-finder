@@ -1,0 +1,61 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+  background-color: #10A4AC;
+  color: #FEFEFE;
+  text-align: center;
+  margin: auto;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: 2px;
+  font-size: 25px;
+  padding: 15px;
+  background-color: #A3CE45;
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px grey;
+  text-transform: uppercase;
+}
+
+table {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 5px 15px;
+}
+
+th {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+  border-width: 0px 2px 2px 2px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, .2);
+}
+
+td {
+  border-width: 0 2px;
+  border-color: rgba(255, 255, 255, .2);
+  border-style: solid;
+}
+
+tr:hover {
+    color: #DBEBA9;
+    text-shadow: 2px 2px 4px grey;
+}
