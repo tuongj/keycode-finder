@@ -1,8 +1,8 @@
 "use strict";
 
 let key = {
-  keyEvent: { keydown: "", keypress: "", keyup: "" },
-  charEvent: { keydown: "", keypress: "", keyup: "" },
+  keyEvent: {},
+  charEvent: {},
   init: function() {
     this.cacheDom();
     this.bindEvents();
@@ -55,7 +55,7 @@ let key = {
       this.charEvent[action] = event.charCode;
       
       
-      if (action === "keydown") {        
+      if (action === "keydown") {
         this.clearCell();
         this.toggleDisplay();
         
